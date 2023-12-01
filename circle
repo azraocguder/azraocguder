@@ -1,0 +1,41 @@
+//
+//  main.c
+//  hesap
+//
+//  Created by Azra Öçgüder on 01.12.2023.
+
+#include <stdio.h>
+
+int main() {
+    //  Program to find the perimeter and area of a circle
+    
+
+float primeter,area,r;
+const float PI=3.1415;
+
+printf("enter the radius of the circle:");
+scanf("%f",&r);
+
+      primeter=2*PI*r;
+      area=PI*r*r;
+      
+      printf("primeter of the circle:%f\n",primeter);
+      printf("area of the circle:%f\n",area);
+     
+     
+
+
+    
+
+    return 0;
+}
+
+
+    
+    
+    
+
+
+
+
+
