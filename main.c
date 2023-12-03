@@ -1,46 +1,37 @@
 //
 //  main.c
-//  asd
+//  study
 //
-//  Created by Azra Öçgüder on 26.11.2023.
+//  Created by Azra Öçgüder on 2.12.2023.
 //
 
 #include <stdio.h>
-#include <stdbool.h>
 
 int main(int argc, const char * argv[]) {
-    // bir arrayin elemanlarının 33ğe bölümünden kalan2 olan sayıların indexlerinin çarpımının 4 e bölümünden kalanının karekökü arrayde mevut mu diye kontrol etsin
-    int myNumbers[] = {25, 50, 75, 100, 200, 75};
-    int indekscarpimi = 0;
-    int indekscarpimibolumundenkalan = 0;
-    int indekscarpimibolumundenkalaninkarekoku = 0;
-    bool result = false;
-    
-    for(int i = 0 ; i< 6; i++) {
-        if ( myNumbers[i] % 33 != 2) {
-           indekscarpimi = indekscarpimi * i;
-        }
-    }
-    indekscarpimibolumundenkalan = indekscarpimi % 4;
-    
-    indekscarpimibolumundenkalaninkarekoku =  indekscarpimibolumundenkalan ^ 1/2;
-    
-    
-    
-    for(int i = 0 ; i< 6; i++) {
-        if ( myNumbers[i] == indekscarpimibolumundenkalaninkarekoku ) {
-            result = true;
-        }
+    // kapalı kaptaki bir gazın basıncını hesaplama
+    //p=t*n*r/v
+    while (1) {
+        int v,n,t;
+        float p;
+        const float r = 2.223;
+        
+        printf("hacimi giriniz:\n");
+        scanf("%d",&v);
+        printf("sicakligi giriniz:\n");
+        scanf("%d",&t);
+        printf("mol sayisini giriniz:\n");
+        scanf("%d",&n);
+        p = n*r*t/v;
+        
+        printf("gazın basinci: %f",&p);
     }
     
     
     
-    if (result == true ) {
-        printf("mevcut");
-    } else {
-        printf("mevcut değil");
-    }
+    
     
     
     return 0;
 }
+
+
