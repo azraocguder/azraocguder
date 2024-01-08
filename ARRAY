@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+
+int i;
+ int notes[]={7,19,24,3,37};
+ 
+ for(i=0;i<5;i++){
+printf("%d\n\n",notes[i]);
+ }
+  return 0;
+}
