@@ -23,7 +23,7 @@ int main(int argc, const char * argv[]) {
         scanf("%d",&n);
         p = n*r*t/v;
         
-        printf("gazın basinci: %f",&p);
+        printf("gazın basinci: %f",p);
     }
     
     
