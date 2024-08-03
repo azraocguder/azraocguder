@@ -1,0 +1,33 @@
+//
+//  ViewController.swift
+//  FirstApplication
+//
+//  Created by Azra Öçgüder on 2.08.2024.
+//
+
+import UIKit
+
+class ViewController: UIViewController {
+
+    
+    
+
+    @IBOutlet weak var imageView: UIImageView!
+    
+    
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the
+    
+    }
+    
+    @IBAction func changeClicked(_ sender: Any) {
+        
+        imageView.image = UIImage(named: "adventure times 2")
+       
+    }
+    
+    
+
+}
