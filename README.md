@@ -1,9 +1,22 @@
-### Hi there, I'm Azra 👋
+# Hi there, I'm Azra Öçgüder! 👋
 
-💻 I'm a 3rd year Computer Engineering student passionate about software development and UI design.  
-🚗 Currently working on VoltPilot – an EV charging assistant app (Clomosy + SQLite based).  
-📚 Learning: Web development, database design, mobile app development (Swift & Clomosy)  
-🌱 Open to internship, remote opportunities, and collaborations!  
-💬 Ask me about: C, Swift, HTML,CSS,JS.  
-📫 How to reach me: [azraocgdr@gmail.com](mailto:azraocgdr@gmail.com)  
-🔗 Connect with me on [LinkedIn](https://www.linkedin.com/in/azra-öçgüder-353b282a1)
+🎓 3rd-year Computer Engineering student at KTO Karatay University  
+💻 Passionate about software development, front-end design, and clean code  
+🌱 Currently improving my skills through real-world projects and open-source collaboration
+
+## 💡 Tech Stack & Tools
+
+- 💻 Languages: **Swift**, **C**, **Java**, **JavaScript**
+- 🌐 Front-End: **HTML**, **CSS**, **Responsive Design**
+- 🛠️ Tools & Environments: **VS Code**, **Xcode**, **IntelliJ IDEA**, **Git**, **GitHub**
+
+## 🚀 What I’m Working On
+
+- Creating responsive web projects using HTML/CSS/JavaScript  
+- Building Swift-based mobile apps  
+- Writing clean and efficient code in C and Java
+
+  ## 📫 How to Reach Me
+
+- 📧 [azraocgdr@gmail.com](mailto:azraocgdr@gmail.com)  
+- 💼 [LinkedIn](https://www.linkedin.com/in/azra-öçgüder-353b282a1)
